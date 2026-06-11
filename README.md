@@ -56,16 +56,41 @@ Does not output by default:
 
 ---
 
+## Characters
+
+This skill supports multiple character IPs. Each character has a distinct role:
+
+| Character | Style | Best For |
+|-----------|-------|----------|
+| **Xiaohei** (default) | Small solid-black blob, white dot eyes, thin legs, deadpan | Hands-on work: carrying, pulling, pressing, operating, sorting |
+| **Haku** | Tall floating spirit, black fading robe, white mask, tear marks, visible hands | Flow, transitions, hidden processes, thresholds, absorption, transformation |
+
+You can specify which character to use ("use Haku"), or let the skill pick based on the article's theme.
+
+### Adding a New Character
+
+You can ask the skill to create a new character:
+
+```text
+Use $ian-xiaohei-illustrations — I want to create a new character for my illustrations.
+```
+
+The skill will interview you about the character's appearance, personality, actions, and prohibitions, then generate a definition file and test images. Once approved, the character is available for all future illustrations.
+
+See `ian-xiaohei-illustrations/references/xiaohei-ip.md` and `ian-xiaohei-illustrations/references/haku-ip.md` for examples of character definitions.
+
+---
+
 ## Visual Style
 
-This skill uses Ian's "Xiaohei Absurd Inline Illustration" style by default:
+This skill uses Ian's "Absurd Inline Illustration" style by default:
 
 - Pure white background — no paper texture, cream, shadows, or gradients
 - Black hand-drawn line art, thin lines, slightly wobbly
 - Generous whitespace — subject takes up only about 40%-60% of the canvas
 - Sparse red, orange, blue handwritten English annotations
 - Each image expresses only one core action, structure, state, or metaphor
-- Xiaohei must participate in the core action — cannot be mere decoration
+- The active character must participate in the core action — cannot be mere decoration
 - Absurd, creative, clean — but not childish, not cutesy
 
 ---
@@ -160,6 +185,18 @@ Use $ian-xiaohei-illustrations to generate one inline illustration for: "Trust i
 The image should be absurd yet clean, and Xiaohei must perform the core action.
 ```
 
+### Use a Specific Character
+
+```text
+Use $ian-xiaohei-illustrations with Haku to generate one inline illustration for: "Data flows through layers of processing before the user ever sees it."
+```
+
+### Create a New Character
+
+```text
+Use $ian-xiaohei-illustrations — I want to create a new character for my illustrations.
+```
+
 ### Remove a Title or Incorrect Text from an Image
 
 ```text
@@ -207,9 +244,12 @@ This skill's workflow is:
     │   └── openai.yaml
     ├── assets/
     │   └── examples/
+    ├── tests/
+    │   └── character-test-prompts.md
     └── references/
         ├── style-dna.md
         ├── xiaohei-ip.md
+        ├── haku-ip.md
         ├── composition-patterns.md
         ├── prompt-template.md
         └── qa-checklist.md

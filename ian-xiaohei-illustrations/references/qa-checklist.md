@@ -4,8 +4,8 @@
 
 - Is 16:9 landscape.
 - Background is clean white.
-- Xiaohei is present.
-- Xiaohei performs the core action — not just decoration.
+- Active character is present.
+- Character performs the core action — not just decoration.
 - Does not copy old example compositions; generated a new metaphor for the current article.
 - Image is absurd, creative, and interesting.
 - Clean and refreshing — subject does not exceed about 60% of the canvas.
@@ -15,12 +15,24 @@
 - Red is used only for key points, problems, reminders, or results.
 - Blue is used only for supplementary notes, feedback, or system state.
 
+## Character-Specific Checks
+
+### Xiaohei
+- Is solid black with white dot eyes and thin legs.
+- Is actively doing physical work (carrying, pulling, pressing, operating).
+- Is not too cute, not a mascot, not just watching.
+
+### Haku
+- Has black fading robe (no legs), white mask, tear marks, visible hands.
+- Is embodying/channeling the process (IS the gate, filter, conduit).
+- Is not scary, not too detailed, not frantic.
+
 ## Failure Signals
 
 If any of the following occur, regenerate or partially edit:
 
 - Top-left corner has titles like "Common Pitfalls / Workflow / System Architecture / Roadmap."
-- Xiaohei looks like a mascot, emoji, or cute cartoon.
+- Character looks like a mascot, emoji, or cute cartoon.
 - Image looks like a PPT, course slide, or formal flowchart.
 - Too many elements, too many arrows, too many nodes.
 - Text has become long paragraphs of explanation.
@@ -32,11 +44,11 @@ If any of the following occur, regenerate or partially edit:
 
 ## Iteration Methods
 
-- Too generic: Make Xiaohei the action subject, add a strange but valid metaphor.
+- Too generic: Make the character the action subject, add a strange but valid metaphor.
 - Too complex: Remove nodes, keep only one action and 3-5 short annotations.
 - Too cute: Emphasize deadpan, blank serious expression, not cute, not mascot.
 - Too PPT-like: Remove titles, borders, neat grids, and excessive arrows — change to a hand-drawn scene.
-- Too similar to old examples: Keep the core meaning, replace the main objects and Xiaohei's action.
+- Too similar to old examples: Keep the core meaning, replace the main objects and character's action.
 - Text errors: Prioritize partial editing; if errors are severe, regenerate with fewer annotations.
 
 ## Delivery Judgment
