@@ -1,5 +1,14 @@
 # Composition Patterns and Originality Rules
 
+## Core Principle: Scene > Diagram
+
+Every illustration must be a SCENE, not a diagram. The difference:
+
+- **Diagram** (bad): boxes connected by arrows, labeled circles, grid layouts, floating shapes
+- **Scene** (good): a physical situation where objects interact — something is being poured, cut, stuck, built, fermented, pulled through, fallen into
+
+Ask: "Could I build this with cardboard and tape on a table?" If yes, it's a scene. If it only makes sense as a digital layout, it's a diagram — redo it.
+
 ## Basic Structure Types
 
 Choose one structure type — don't mix too many.
@@ -58,9 +67,9 @@ Every time, reinvent a metaphor from the current article — never copy old illu
 
 ### Three Steps
 
-1. Replace the abstract concept with a physical action: stuck, leaking, getting heavier, sorting, settling, fermenting, opening a door, folding, unpacking, flowing back.
-2. Replace the system structure with a low-tech object: broken machine, cardboard box, drawer, pipe, mailbox, strange gauge, scale, well, ladder, weird workstation.
-3. Have Xiaohei perform the action: not standing beside, but stuck inside a machine, pulling the wrong wire, guarding a door, carrying, repairing, weighing, propping up a ladder, recording, stuffing things into some strange device.
+1. **Abstract → Physical action**: Replace the concept with something you can physically DO: stuck, leaking, getting heavier, sorting, settling, fermenting, opening a door, folding, unpacking, flowing back, slicing, pouring, stacking, falling into a hole.
+2. **System → Low-tech object**: Replace the structure with something you'd find in a workshop or kitchen: broken machine, cardboard box, drawer, pipe, mailbox, strange gauge, scale, well, ladder, weird workstation, fermentation jar, cutting board, conveyor belt, pit in ground, funnel with a crack, rope and pulley.
+3. **Character interacts physically**: The character isn't standing beside the object — it's stuck inside a machine, pulling the wrong wire, guarding a door, carrying something too heavy, slicing with a knife, pouring into a jar, leaning to push a lever, reaching into a well. The character's BODY SHAPE changes to reflect the action (squished, leaning, stretched, crouching).
 
 ### Available Object Pool
 

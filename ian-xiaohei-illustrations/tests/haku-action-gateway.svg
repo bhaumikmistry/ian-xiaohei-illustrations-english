@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <rect width="1600" height="900" fill="white"/>
+
+  <defs>
+    <linearGradient id="robeFade2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="black" stop-opacity="1"/>
+      <stop offset="75%" stop-color="black" stop-opacity="1"/>
+      <stop offset="100%" stop-color="black" stop-opacity="0"/>
+    </linearGradient>
+    <marker id="arrowOr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e76f51"/>
+    </marker>
+  </defs>
+
+  <!-- Haku as a gateway between two states -->
+
+  <!-- Left side: chaotic items -->
+  <rect x="200" y="350" width="60" height="40" fill="none" stroke="black" stroke-width="1.5" transform="rotate(-8 230 370)"/>
+  <rect x="280" y="380" width="50" height="35" fill="none" stroke="black" stroke-width="1.5" transform="rotate(5 305 397)"/>
+  <rect x="240" y="420" width="55" height="30" fill="none" stroke="black" stroke-width="1.5" transform="rotate(-12 267 435)"/>
+  <circle cx="320" cy="350" r="15" fill="none" stroke="black" stroke-width="1.5"/>
+  <rect x="180" y="430" width="45" height="45" fill="none" stroke="black" stroke-width="1.5" transform="rotate(10 202 452)"/>
+
+  <!-- Orange arrows flowing into Haku -->
+  <path d="M 380 400 C 450 400, 520 420, 600 430" stroke="#e76f51" stroke-width="2.5" fill="none" marker-end="url(#arrowOr)"/>
+  <path d="M 360 450 C 420 445, 500 440, 600 440" stroke="#e76f51" stroke-width="2" fill="none" marker-end="url(#arrowOr)"/>
+
+  <!-- Haku body - centered, acting as gateway -->
+  <path d="M 770 200 C 745 215, 720 260, 710 320 C 700 400, 685 480, 675 560 C 665 640, 660 700, 658 750 C 680 760, 730 765, 800 765 C 870 765, 920 760, 942 750 C 940 700, 935 640, 925 560 C 915 480, 900 400, 890 320 C 880 260, 855 215, 830 200 Z" fill="url(#robeFade2)"/>
+
+  <!-- White mask -->
+  <ellipse cx="800" cy="270" rx="40" ry="55" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Dark oval eyes -->
+  <ellipse cx="785" cy="265" rx="7" ry="11" fill="#1a1a1a"/>
+  <ellipse cx="815" cy="265" rx="7" ry="11" fill="#1a1a1a"/>
+
+  <!-- Small mouth -->
+  <ellipse cx="800" cy="300" rx="5" ry="7" fill="#1a1a1a"/>
+
+  <!-- Tear marks -->
+  <path d="M 785 277 C 785 285, 783 295, 782 302" stroke="#6b5b7b" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 815 277 C 815 285, 817 295, 818 302" stroke="#6b5b7b" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Left hand - receiving -->
+  <path d="M 710 380 C 670 370, 640 365, 620 370" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="618" cy="372" r="7" fill="#1a1a1a"/>
+
+  <!-- Right hand - releasing -->
+  <path d="M 890 380 C 930 370, 960 365, 980 370" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="982" cy="372" r="7" fill="#1a1a1a"/>
+
+  <!-- Orange arrows flowing out of Haku - clean, organized -->
+  <path d="M 1000 400 C 1060 400, 1120 390, 1180 380" stroke="#e76f51" stroke-width="2.5" fill="none" marker-end="url(#arrowOr)"/>
+  <path d="M 1000 430 C 1060 425, 1120 415, 1180 410" stroke="#e76f51" stroke-width="2" fill="none" marker-end="url(#arrowOr)"/>
+
+  <!-- Right side: clean organized items -->
+  <rect x="1220" y="350" width="70" height="45" fill="none" stroke="black" stroke-width="1.5" rx="2"/>
+  <rect x="1220" y="410" width="70" height="45" fill="none" stroke="black" stroke-width="1.5" rx="2"/>
+  <rect x="1220" y="470" width="70" height="45" fill="none" stroke="black" stroke-width="1.5" rx="2"/>
+
+  <!-- Red annotation - left -->
+  <text x="200" y="310" font-family="Comic Sans MS, cursive" font-size="20" fill="#e63946">raw chaos</text>
+
+  <!-- Blue annotation - right -->
+  <text x="1220" y="540" font-family="Comic Sans MS, cursive" font-size="20" fill="#457b9d">filtered output</text>
+
+  <!-- Orange annotation - center bottom -->
+  <text x="750" y="820" font-family="Comic Sans MS, cursive" font-size="20" fill="#e76f51">Haku IS the process</text>
+</svg>

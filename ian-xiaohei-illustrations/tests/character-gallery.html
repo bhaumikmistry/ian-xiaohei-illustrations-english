@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Gallery — Xiaohei & Haku</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; padding: 40px; }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    .subtitle { color: #666; margin-bottom: 40px; font-size: 16px; }
+    .section { margin-bottom: 60px; }
+    .section h2 { font-size: 22px; margin-bottom: 6px; border-bottom: 2px solid #222; display: inline-block; padding-bottom: 4px; }
+    .section p { color: #555; margin-bottom: 20px; font-size: 14px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+    .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .card h3 { padding: 16px 20px 8px; font-size: 16px; color: #333; }
+    .card .desc { padding: 0 20px 16px; font-size: 13px; color: #777; }
+    .card img { width: 100%; height: auto; display: block; border-top: 1px solid #eee; }
+    .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+    .comparison .card { border-radius: 0; box-shadow: none; border: 1px solid #eee; }
+    .vs { display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: bold; color: #ccc; padding: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Character Gallery</h1>
+  <p class="subtitle">Visual test of both characters — basic forms, actions, and side-by-side comparison</p>
+
+  <div class="section">
+    <h2>Xiaohei</h2>
+    <p>Small solid-black blob. White dot eyes. Thin legs. Deadpan. Hands-on worker.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Basic Form</h3>
+        <p class="desc">Standing idle — blob body, dot eyes, thin legs</p>
+        <img src="xiaohei-character.svg" alt="Xiaohei basic form">
+      </div>
+      <div class="card">
+        <h3>Action: Carrying</h3>
+        <p class="desc">Struggling under weight — physical labor metaphor</p>
+        <img src="xiaohei-action-carrying.svg" alt="Xiaohei carrying a box">
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Haku</h2>
+    <p>Tall floating spirit. Black fading robe. White mask. Tear marks. Visible hands. Silent conduit.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Basic Form</h3>
+        <p class="desc">Floating still — mask, fading robe, hands extended</p>
+        <img src="haku-character.svg" alt="Haku basic form">
+      </div>
+      <div class="card">
+        <h3>Action: Gateway</h3>
+        <p class="desc">Embodying the process — chaos in, clean output out</p>
+        <img src="haku-action-gateway.svg" alt="Haku as gateway">
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Side-by-Side — Same Theme</h2>
+    <p>Theme: "Information Filtering" — same concept, different character treatment</p>
+    <div class="comparison">
+      <div class="card">
+        <h3>Xiaohei: Worker</h3>
+        <p class="desc">Physically carrying and sorting — doing the work</p>
+        <img src="xiaohei-action-carrying.svg" alt="Xiaohei approach">
+      </div>
+      <div class="card">
+        <h3>Haku: Conduit</h3>
+        <p class="desc">Being the filter itself — embodying the process</p>
+        <img src="haku-action-gateway.svg" alt="Haku approach">
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Character Comparison</h2>
+    <table style="width:100%; border-collapse:collapse; background:white; border-radius:8px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+      <thead>
+        <tr style="background:#222; color:white;">
+          <th style="padding:12px 16px; text-align:left;"></th>
+          <th style="padding:12px 16px; text-align:left;">Xiaohei</th>
+          <th style="padding:12px 16px; text-align:left;">Haku</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:10px 16px; font-weight:600;">Body</td>
+          <td style="padding:10px 16px;">Small black blob, grounded</td>
+          <td style="padding:10px 16px;">Tall fading robe, floating</td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:10px 16px; font-weight:600;">Eyes</td>
+          <td style="padding:10px 16px;">White dots</td>
+          <td style="padding:10px 16px;">Dark ovals on white mask + tear marks</td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:10px 16px; font-weight:600;">Limbs</td>
+          <td style="padding:10px 16px;">Thin legs + optional arms</td>
+          <td style="padding:10px 16px;">No legs (fades), always-visible hands</td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:10px 16px; font-weight:600;">Role</td>
+          <td style="padding:10px 16px;">Hands-on worker</td>
+          <td style="padding:10px 16px;">Silent conduit / embodiment</td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:10px 16px; font-weight:600;">Action style</td>
+          <td style="padding:10px 16px;">Doing (pulling, carrying, pressing)</td>
+          <td style="padding:10px 16px;">Being (channeling, absorbing, gating)</td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:10px 16px; font-weight:600;">Best for</td>
+          <td style="padding:10px 16px;">Mechanical processes, labor metaphors</td>
+          <td style="padding:10px 16px;">Flow, transformation, hidden processes</td>
+        </tr>
+        <tr>
+          <td style="padding:10px 16px; font-weight:600;">Tone</td>
+          <td style="padding:10px 16px;">Dry humor, clumsy, serious</td>
+          <td style="padding:10px 16px;">Melancholic, patient, mysterious</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

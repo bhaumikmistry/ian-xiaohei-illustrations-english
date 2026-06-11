@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <rect width="1600" height="900" fill="white"/>
+
+  <!-- Xiaohei carrying a big box labeled "IDEAS" -->
+
+  <!-- The box - above Xiaohei -->
+  <rect x="700" y="280" width="200" height="150" fill="none" stroke="black" stroke-width="2.5" rx="3"/>
+  <line x1="700" y1="310" x2="900" y2="310" stroke="black" stroke-width="1.5"/>
+  <text x="800" y="390" text-anchor="middle" font-family="Comic Sans MS, cursive" font-size="24" fill="#333">IDEAS</text>
+
+  <!-- Xiaohei body - slightly squished from weight -->
+  <path d="M 775 460 C 750 462, 735 480, 733 505 C 730 530, 740 555, 760 565 C 775 573, 825 573, 840 565 C 860 555, 870 530, 867 505 C 865 480, 850 462, 825 460 Z" fill="black"/>
+
+  <!-- White dot eyes - strained -->
+  <circle cx="785" cy="505" r="5" fill="white"/>
+  <circle cx="815" cy="505" r="5" fill="white"/>
+
+  <!-- Arms reaching up to hold box -->
+  <line x1="745" y1="475" x2="720" y2="430" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="855" y1="475" x2="880" y2="430" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Thin legs - slightly bent from weight -->
+  <path d="M 775 572 C 772 590, 768 620, 765 650" fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 825 572 C 828 590, 832 620, 835 650" fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small feet -->
+  <ellipse cx="763" cy="653" rx="8" ry="4" fill="black"/>
+  <ellipse cx="837" cy="653" rx="8" ry="4" fill="black"/>
+
+  <!-- Strain lines above Xiaohei -->
+  <line x1="790" y1="445" x2="790" y2="435" stroke="black" stroke-width="1.5"/>
+  <line x1="800" y1="442" x2="800" y2="430" stroke="black" stroke-width="1.5"/>
+  <line x1="810" y1="445" x2="810" y2="435" stroke="black" stroke-width="1.5"/>
+
+  <!-- Red annotation -->
+  <text x="960" y="380" font-family="Comic Sans MS, cursive" font-size="22" fill="#e63946">too heavy</text>
+  <path d="M 905 385 L 950 383" stroke="#e63946" stroke-width="1.5" stroke-dasharray="4,3" fill="none"/>
+
+  <!-- Orange arrow showing intended direction -->
+  <path d="M 500 550 L 650 550" stroke="#e76f51" stroke-width="2.5" fill="none" marker-end="url(#arrowOrange)"/>
+  <defs>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e76f51"/>
+    </marker>
+  </defs>
+
+  <!-- Blue annotation -->
+  <text x="440" y="540" font-family="Comic Sans MS, cursive" font-size="18" fill="#457b9d">going somewhere</text>
+
+  <!-- Ground line - subtle -->
+  <line x1="400" y1="660" x2="1100" y2="660" stroke="#ccc" stroke-width="1" stroke-dasharray="8,6"/>
+</svg>

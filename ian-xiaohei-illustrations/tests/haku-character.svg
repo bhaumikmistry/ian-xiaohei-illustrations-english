@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <rect width="1600" height="900" fill="white"/>
+
+  <!-- Haku - Basic Form -->
+  <!-- Body: tall black robe that fades at bottom -->
+  <defs>
+    <linearGradient id="robeFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="black" stop-opacity="1"/>
+      <stop offset="70%" stop-color="black" stop-opacity="1"/>
+      <stop offset="100%" stop-color="black" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Robe body - tall and narrow, fading at bottom -->
+  <path d="M 770 300 C 750 310, 730 350, 720 400 C 710 460, 700 530, 690 600 C 680 670, 670 730, 665 780 C 680 790, 720 795, 800 795 C 880 795, 920 790, 935 780 C 930 730, 920 670, 910 600 C 900 530, 890 460, 880 400 C 870 350, 850 310, 830 300 Z" fill="url(#robeFade)"/>
+
+  <!-- White mask - oval -->
+  <ellipse cx="800" cy="350" rx="45" ry="60" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Dark oval eyes - no pupils -->
+  <ellipse cx="783" cy="345" rx="8" ry="12" fill="#1a1a1a"/>
+  <ellipse cx="817" cy="345" rx="8" ry="12" fill="#1a1a1a"/>
+
+  <!-- Small mouth mark -->
+  <ellipse cx="800" cy="385" rx="6" ry="8" fill="#1a1a1a"/>
+
+  <!-- Grey/purple tear marks under eyes -->
+  <path d="M 783 358 C 783 365, 781 375, 780 382" stroke="#6b5b7b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 817 358 C 817 365, 819 375, 820 382" stroke="#6b5b7b" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Visible hands - dark, extending from robe -->
+  <!-- Left hand -->
+  <path d="M 720 480 C 690 470, 660 465, 640 470 C 630 472, 625 478, 630 485 C 635 490, 645 488, 650 485" fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="635" cy="478" r="8" fill="#1a1a1a"/>
+
+  <!-- Right hand -->
+  <path d="M 880 480 C 910 470, 940 465, 960 470 C 970 472, 975 478, 970 485 C 965 490, 955 488, 950 485" fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="965" cy="478" r="8" fill="#1a1a1a"/>
+
+  <!-- Label -->
+  <text x="800" y="850" text-anchor="middle" font-family="Comic Sans MS, cursive" font-size="28" fill="#333">Haku</text>
+
+  <!-- Red annotation -->
+  <text x="900" y="350" font-family="Comic Sans MS, cursive" font-size="18" fill="#e63946">white mask</text>
+  <line x1="850" y1="350" x2="890" y2="350" stroke="#e63946" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Blue annotation -->
+  <text x="600" y="650" font-family="Comic Sans MS, cursive" font-size="18" fill="#457b9d">fading robe</text>
+  <line x1="660" y1="645" x2="690" y2="630" stroke="#457b9d" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Orange annotation pointing to tear marks -->
+  <text x="900" y="380" font-family="Comic Sans MS, cursive" font-size="16" fill="#e76f51">tear marks</text>
+  <line x1="840" y1="370" x2="890" y2="375" stroke="#e76f51" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Blue annotation for hands -->
+  <text x="540" y="470" font-family="Comic Sans MS, cursive" font-size="16" fill="#457b9d">visible hands</text>
+  <text x="990" y="470" font-family="Comic Sans MS, cursive" font-size="16" fill="#457b9d">visible hands</text>
+</svg>

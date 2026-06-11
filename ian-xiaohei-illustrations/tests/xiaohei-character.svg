@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <rect width="1600" height="900" fill="white"/>
+
+  <!-- Xiaohei - Basic Form -->
+  <!-- Body: solid black blob, slightly irregular -->
+  <path d="M 800 450 C 760 450, 730 470, 725 510 C 720 550, 735 590, 760 610 C 780 625, 820 625, 840 610 C 865 590, 880 550, 875 510 C 870 470, 840 450, 800 450 Z" fill="black"/>
+
+  <!-- White dot eyes -->
+  <circle cx="780" cy="510" r="6" fill="white"/>
+  <circle cx="820" cy="510" r="6" fill="white"/>
+
+  <!-- Thin legs -->
+  <line x1="775" y1="625" x2="770" y2="690" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="825" y1="625" x2="830" y2="690" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small feet -->
+  <ellipse cx="768" cy="693" rx="8" ry="4" fill="black"/>
+  <ellipse cx="832" cy="693" rx="8" ry="4" fill="black"/>
+
+  <!-- Label -->
+  <text x="800" y="780" text-anchor="middle" font-family="Comic Sans MS, cursive" font-size="28" fill="#333">Xiaohei</text>
+
+  <!-- Red annotation -->
+  <text x="920" y="500" font-family="Comic Sans MS, cursive" font-size="18" fill="#e63946">deadpan</text>
+  <line x1="860" y1="510" x2="910" y2="505" stroke="#e63946" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Blue annotation -->
+  <text x="620" y="580" font-family="Comic Sans MS, cursive" font-size="18" fill="#457b9d">solid black</text>
+  <line x1="690" y1="575" x2="730" y2="560" stroke="#457b9d" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Orange annotation -->
+  <text x="780" y="740" font-family="Comic Sans MS, cursive" font-size="18" fill="#e76f51">thin legs</text>
+</svg>
